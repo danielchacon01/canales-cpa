@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos A. Canales CPA P.C. - Professional Accounting & Tax Services in Laredo, TX</title>
+    <meta name="description" content="Expert CPA services in Laredo, Texas. Accounting, tax preparation, and financial consulting for small and medium-sized businesses with over 20 years of experience.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .delay-100 { animation-delay: 0.1s; opacity: 0; }
+        .delay-200 { animation-delay: 0.2s; opacity: 0; }
+        .delay-300 { animation-delay: 0.3s; opacity: 0; }
+        .delay-400 { animation-delay: 0.4s; opacity: 0; }
+        
+        .hover-lift {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gradient-border {
+            position: relative;
+        }
+        
+        .gradient-border::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #1e40af, #3b82f6);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+    
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-bold text-gray-900">
+                        Carlos A. Canales CPA P.C.
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="specializations.html" class="text-gray-600 hover:text-gray-900 transition font-medium">Specializations</a>
+                    <a href="about.html" class="text-gray-600 hover:text-gray-900 transition font-medium">About</a>
+                    <a href="services.html" class="text-gray-600 hover:text-gray-900 transition font-medium">Services</a>
+                    <a href="contact.html" class="bg-blue-700 text-white px-6 py-2.5 rounded-lg hover:bg-blue-800 transition font-medium">
+                        Contact
+                    </a>
+                </div>
+                
+                <div class="flex md:hidden items-center space-x-4">
+                    <a href="tel:+19566150132" class="text-blue-700 font-semibold">
+                        +1 (956)-615-0132
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:hidden mt-4 pt-4 border-t border-gray-100 flex flex-col space-y-3">
+                <a href="specializations.html" class="text-gray-600 hover:text-gray-900 transition">Specializations</a>
+                <a href="about.html" class="text-gray-600 hover:text-gray-900 transition">About</a>
+                <a href="services.html" class="text-gray-600 hover:text-gray-900 transition">Services</a>
+                <a href="contact.html" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top Contact Bar -->
+    <div class="fixed top-16 md:top-0 right-0 z-40 md:mt-20 mr-6">
+        <div class="hidden md:flex flex-col space-y-2 text-sm">
+            <a href="tel:+19566150132" class="text-gray-600 hover:text-blue-700 transition">
+                +1 (956)-615-0132
+            </a>
+            <a href="/cdn-cgi/l/email-protection#016262606f606d64724162606f606d64726271602f626e6c" class="text-gray-600 hover:text-blue-700 transition">
+                <span class="__cf_email__" data-cfemail="e28181838c838e8791a281838c838e8791819283cc818d8f">[email&#160;protected]</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="pt-32 md:pt-40 pb-20 px-6 bg-gradient-to-b from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-4xl mx-auto">
+                <div class="fade-in">
+                    <div class="inline-block mb-6">
+                        <span class="text-sm font-semibold text-blue-700 tracking-wider uppercase">
+                            Experience. Integrity. Results.
+                        </span>
+                    </div>
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6 text-gray-900">
+                        Professional Accounting, Tax, and Consulting Services
+                    </h1>
+                    <p class="text-xl text-gray-600 leading-relaxed mb-8 max-w-3xl mx-auto">
+                        Supporting small and medium-sized businesses in Laredo, TX with reliable tax, accounting, and financial consulting services.
+                    </p>
+                </div>
+                <div class="fade-in delay-200">
+                    <a href="contact.html" class="inline-block bg-blue-700 text-white px-8 py-4 rounded-lg hover:bg-blue-800 transition font-semibold text-lg shadow-lg hover:shadow-xl">
+                        Schedule a Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas of Expertise Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+                    Our Areas of Expertise
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Accounting -->
+                <a href="specializations/accounting.html" class="group bg-white border border-gray-200 rounded-xl p-8 hover-lift">
+                    <div class="mb-6">
+                        <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-700 transition">
+                            Accounting
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Accurate bookkeeping, financial reporting, and balance sheet preparation tailored to support business decision-making with confidence.
+                        </p>
+                    </div>
+                    <div class="text-blue-700 font-semibold group-hover:translate-x-2 transition inline-flex items-center">
+                        Read more →
+                    </div>
+                </a>
+
+                <!-- Tax Preparation -->
+                <a href="specializations/tax-preparation.html" class="group bg-white border border-gray-200 rounded-xl p-8 hover-lift">
+                    <div class="mb-6">
+                        <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-700 transition">
+                            Tax Preparation
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Professional federal and state tax filings for individuals and businesses, ensuring compliance and maximizing efficiency.
+                        </p>
+                    </div>
+                    <div class="text-blue-700 font-semibold group-hover:translate-x-2 transition inline-flex items-center">
+                        Read more →
+                    </div>
+                </a>
+
+                <!-- Tax Planning -->
+                <a href="specializations/tax-planning.html" class="group bg-white border border-gray-200 rounded-xl p-8 hover-lift">
+                    <div class="mb-6">
+                        <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-700 transition">
+                            Tax Planning
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Strategic tax planning designed to minimize liabilities, protect assets, and create long-term financial advantages.
+                        </p>
+                    </div>
+                    <div class="text-blue-700 font-semibold group-hover:translate-x-2 transition inline-flex items-center">
+                        Read more →
+                    </div>
+                </a>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="specializations.html" class="inline-block text-blue-700 font-semibold hover:text-blue-800 transition">
+                    See all specializations →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 px-6 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1">
+                    <div class="mb-6">
+                        <span class="text-sm font-semibold text-blue-700 tracking-wider uppercase">
+                            About me
+                        </span>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                        Expert Accounting & Tax Services
+                    </h2>
+                    <div class="space-y-4 text-gray-600 leading-relaxed">
+                        <p>
+                            With over 20 years of professional experience, I specialize in providing accounting, tax, and financial consulting services designed to support small and medium-sized businesses. Based in Laredo, Texas, my focus is on helping clients achieve financial clarity, stay compliant with tax regulations, and build strategies that promote long-term growth.
+                        </p>
+                        <p>
+                            I pride myself on integrity, accuracy, and transparency—qualities that have earned the trust of local businesses and entrepreneurs. Whether you need reliable accounting, tax preparation, or strategic planning, you can count on me to be your dedicated CPA partner every step of the way.
+                        </p>
+                    </div>
+                    <div class="mt-8">
+                        <a href="about.html" class="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition font-semibold">
+                            More about me
+                        </a>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <div class="relative">
+                        <div class="aspect-[3/4] bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl overflow-hidden shadow-xl">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80" 
+                                 alt="Carlos A. Canales - Professional CPA" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-6">
+                <span class="text-sm font-semibold text-blue-700 tracking-wider uppercase">
+                    Services
+                </span>
+            </div>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+                    Our Core Services
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Essential accounting and tax solutions for businesses in Laredo, TX.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Accounting & Reporting -->
+                <a href="services/accounting-reporting.html" class="group bg-white border border-gray-200 rounded-xl overflow-hidden hover-lift">
+                    <div class="aspect-video bg-gray-100 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80" 
+                             alt="Accounting & Reporting Services" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-700 transition">
+                            Accounting & Reporting
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Accurate financial statements that give small and medium-sized businesses the clarity they need to make informed decisions.
+                        </p>
+                        <div class="text-blue-700 font-semibold group-hover:translate-x-2 transition inline-flex items-center">
+                            Read more →
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Tax Preparation & Compliance -->
+                <a href="services/tax-preparation-compliance.html" class="group bg-white border border-gray-200 rounded-xl overflow-hidden hover-lift">
+                    <div class="aspect-video bg-gray-100 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80" 
+                             alt="Tax Preparation & Compliance" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-700 transition">
+                            Tax Preparation & Compliance
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Professional preparation and filing of federal and state tax returns, ensuring accuracy, compliance, and maximized efficiency.
+                        </p>
+                        <div class="text-blue-700 font-semibold group-hover:translate-x-2 transition inline-flex items-center">
+                            Read more →
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Strategic Tax Planning -->
+                <a href="services/strategic-tax-planning.html" class="group bg-white border border-gray-200 rounded-xl overflow-hidden hover-lift">
+                    <div class="aspect-video bg-gray-100 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" 
+                             alt="Strategic Tax Planning" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900 group-hover:text-blue-700 transition">
+                            Strategic Tax Planning
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Customized tax strategies to reduce liabilities, protect assets, and create long-term financial advantages for businesses.
+                        </p>
+                        <div class="text-blue-700 font-semibold group-hover:translate-x-2 transition inline-flex items-center">
+                            Read more →
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="py-20 px-6 bg-gradient-to-br from-blue-700 to-blue-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="mb-6">
+                <span class="text-sm font-semibold text-blue-200 tracking-wider uppercase">
+                    Contact
+                </span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                Let's get in touch
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Have questions about accounting or taxes? We're here to help—with clear, practical guidance.
+            </p>
+            <a href="contact.html" class="inline-block bg-white text-blue-700 px-8 py-4 rounded-lg hover:bg-gray-100 transition font-semibold text-lg shadow-xl">
+                Schedule a Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-2">
+                    <h3 class="text-xl font-bold mb-4">Carlos A. Canales CPA P.C.</h3>
+                    <p class="text-gray-400 mb-6">
+                        Professional CPA firm in Laredo specializing in accounting, tax compliance, and tailored financial consulting for businesses.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Useful Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="about.html" class="hover:text-white transition">About</a></li>
+                        <li><a href="specializations.html" class="hover:text-white transition">Specializations</a></li>
+                        <li><a href="services.html" class="hover:text-white transition">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>
+                            <a href="/cdn-cgi/l/email-protection#3e5d5d5f505f525b4d7e5d5f505f525b4d5d4e5f105d5153" class="hover:text-white transition">
+                                <span class="__cf_email__" data-cfemail="a0c3c3c1cec1ccc5d3e0c3c1cec1ccc5d3c3d0c18ec3cfcd">[email&#160;protected]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+19566150132" class="hover:text-white transition">
+                                +1 (956)-615-0132
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/7128+Rosson+Rd,+Laredo,+TX+78041/@27.5619918,-99.4482999,17z/" target="_blank" class="hover:text-white transition">
+                                7128 Rosson Rd Suite 6<br>Laredo, TX 78041
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2025 Copyright - Carlos A. Canales CPA P.C. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('clic
